@@ -356,7 +356,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
             Skills
           </Link>
           <Link 
-            to="/podcast" 
+            to="/blog" 
             onClick={() => setMenuOpen(false)} 
             className={`hover:text-[#FFD100]  transition-colors duration-300 ${
               isActive('/blog') ? 'text-[#FFD100] font-semibold' : ''
