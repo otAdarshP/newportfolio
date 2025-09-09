@@ -172,7 +172,7 @@ const HeroSection = ({ darkMode }) => {
         darkMode ? "bg-[#010714] text-white" : "bg-white text-black"
       }`}
     >
-      <div className="w-full flex flex-col md:flex-row items-center justify-between gap-8 -mt-50">
+      <div className="w-full flex flex-col md:flex-row items-center justify-between gap-8 -mt-5">
         {/* Left: text content */}
         <div className="md:w-1/2 text-left">
           <h1 className="mb-4 text-4xl font-semibold md:text-6xl">
